@@ -5,8 +5,8 @@
 
 const CONFIG = {
     // Supabase
-    SUPABASE_URL: 'https://seu-projeto.supabase.co',
-    SUPABASE_KEY: 'sua-chave-publica-aqui',
+    SUPABASE_URL: 'https://cymgsrlhoymaclvnhsed.supabase.co',
+    SUPABASE_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5bWdzcmxob3ltYWNsdm5oc2VkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg3MjIzODAsImV4cCI6MjA4NDI5ODM4MH0.OPXpO9-LGRjaG_xWMWY744jxTjb8pShYePOlHKQEvrw',
     
     // App
     APP_NAME: 'Sistema de Escala de Louvor',
@@ -23,7 +23,7 @@ const CONFIG = {
 };
 
 // Validar configurações
-if (CONFIG.SUPABASE_URL === 'https://seu-projeto.supabase.co' || 
-    CONFIG.SUPABASE_KEY === 'sua-chave-publica-aqui') {
+if (CONFIG.SUPABASE_URL === 'https://cymgsrlhoymaclvnhsed.supabase.co' || 
+    CONFIG.SUPABASE_KEY === 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5bWdzcmxob3ltYWNsdm5oc2VkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg3MjIzODAsImV4cCI6MjA4NDI5ODM4MH0.OPXpO9-LGRjaG_xWMWY744jxTjb8pShYePOlHKQEvrw') {
     console.warn('⚠️ Configure suas chaves do Supabase em config.js');
 }
